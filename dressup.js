@@ -23,19 +23,41 @@ function ImageSwitcher(choices, i) {
 		}
 	}
 }
-  
-    var pants = $(".pant");
-	var shirts = $(".shirt");
-	var backgrounds = $(".bg");
 
-	var shirt_picker = new ImageSwitcher(shirts);
-	document.getElementById("shirt_button").onclick = function() { shirt_picker.Next(); };
+var hats = $(".hat");
+
+var hat_picker = new ImageSwitcher(hats);
+document.getElementById("hat_button").onclick = function() { hat_picker.Next(); };
+
+var eyes = $(".eye");
+
+var eye_picker = new ImageSwitcher(eyes);
+document.getElementById("eye_button").onclick = function() { eye_picker.Next(); };
+  
+var accs = $(".acc");
+
+var acc_picker = new ImageSwitcher(accs);
+document.getElementById("acc_button").onclick = function() { acc_picker.Next(); };
+
+var scarfs = $(".scarf");
+
+var scarf_picker = new ImageSwitcher(scarfs);
+document.getElementById("scarf_button").onclick = function() { scarf_picker.Next(); };
 	
-	var pants_picker = new ImageSwitcher(pants);
-	document.getElementById("pant_button").onclick = function() {pants_picker.Next(); };
-	
-	var bg_picker = new ImageSwitcher(backgrounds);
-	document.getElementById("bg_button").onclick = function() {bg_picker.Next(); };
+var coats = $(".coat");
+
+var coat_picker = new ImageSwitcher(coats);
+document.getElementById("coat_button").onclick = function() { coat_picker.Next(); };
+
+var outfits = $(".outfit");
+
+var outfit_picker = new ImageSwitcher(outfits);
+document.getElementById("outfit_button").onclick = function() { outfit_picker.Next(); };
+
+var shoes = $(".shoe");
+
+var shoe_picker = new ImageSwitcher(shoes);
+document.getElementById("shoe_button").onclick = function() { shoe_picker.Next(); };
 
 });
 
