@@ -1,0 +1,54 @@
+
+body{
+	background-color: #cc9ad6;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+img {
+	position: absolute;
+	margin-left: 15%;
+display:inline-block;
+  height:100%;
+}
+
+
+button{
+  margin-top:20%;
+}
+
+ul{
+	list-style-type: none;
+	display:inline-block;
+}
+
+
+character{
+z-index: -1000;   
+}
+
+.shirt{
+	visibility:hidden;
+  z-index: 2;
+}
+
+.pant{
+	visibility:hidden;
+  z-index: 1;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
