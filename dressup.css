@@ -1,6 +1,6 @@
 
 body{
-	background-color: #cc9ad6;
+	background-color: #9ad6ce;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -28,16 +28,34 @@ character{
 z-index: -1000;   
 }
 
-.shirt{
+.hat{
+	visibility:hidden;
+  z-index: 7;
+}
+.eye{
+	visibility:hidden;
+  z-index: 6;
+}
+.acc{
+	visibility:hidden;
+  z-index: 5;
+}
+.scarf{
+	visibility:hidden;
+  z-index: 4;
+}
+.coat{
+	visibility:hidden;
+  z-index: 3;
+}
+.outfit{
 	visibility:hidden;
   z-index: 2;
 }
-
-.pant{
+.shoe{
 	visibility:hidden;
   z-index: 1;
-	}
-
+}
 
 
 
