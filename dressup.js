@@ -39,16 +39,6 @@ var accs = $(".acc");
 var acc_picker = new ImageSwitcher(accs);
 document.getElementById("acc_button").onclick = function() { acc_picker.Next(); };
 
-var scarfs = $(".scarf");
-
-var scarf_picker = new ImageSwitcher(scarfs);
-document.getElementById("scarf_button").onclick = function() { scarf_picker.Next(); };
-	
-var coats = $(".coat");
-
-var coat_picker = new ImageSwitcher(coats);
-document.getElementById("coat_button").onclick = function() { coat_picker.Next(); };
-
 var outfits = $(".outfit");
 
 var outfit_picker = new ImageSwitcher(outfits);

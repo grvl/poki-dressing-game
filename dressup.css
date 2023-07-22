@@ -4,28 +4,34 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 50%;
+    align-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
 
+.buttons {
+    flex-grow: 2;
+}
 
 img {
-	position: absolute;
-	margin-left: 15%;
-display:inline-block;
-  height:100%;
+    position: fixed;
 }
 
 
 button{
-  margin-top:20%;
-}
-
-ul{
-	list-style-type: none;
-	display:inline-block;
-}
-
-
-character{
-z-index: -1000;   
+  background-color: #D667EA;
+  border: none;
+  color: white;
+  padding: 2% 3%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .hat{
